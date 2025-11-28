@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Login Firebase</title>
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h2>Iniciar Sesión</h2>
+
+      <form id="loginForm">
+        <input type="email" id="email" placeholder="Correo" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Ingresar</button>
+      </form>
+
+      <p id="mensaje" class="mensaje"></p>
+    </section>
+  </main>
+
+  <!-- 👉 Firebase V9 Modular -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
